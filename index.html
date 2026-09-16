@@ -1,135 +1,71 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Angela De Vera | CV</title>
+    <title>Angela Gabriele De Vera - CV</title>
 
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
             line-height: 1.6;
-        }
-
-        .container {
-            max-width: 900px;
+            max-width: 850px;
             margin: 40px auto;
-            background: white;
-            padding: 40px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            padding: 0 25px;
+            color: #222;
+            background: #fff;
         }
 
-        header {
-            text-align: center;
-            border-bottom: 2px solid #333;
-            padding-bottom: 25px;
-            margin-bottom: 30px;
-        }
-
-        header h1 {
+        h1 {
             font-size: 32px;
             margin-bottom: 5px;
         }
 
-        header h2 {
-            font-size: 17px;
-            font-weight: normal;
-            color: #666;
-        }
-
-        .contact {
-            margin-top: 15px;
-            font-size: 14px;
-        }
-
-        .contact a {
-            color: #333;
-            text-decoration: none;
-            margin: 0 8px;
-        }
-
-        section {
-            margin-bottom: 30px;
-        }
-
-        section h2 {
+        h2 {
             font-size: 20px;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 7px;
-            margin-bottom: 15px;
+            margin-top: 30px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #333;
         }
 
-        .profile {
-            font-size: 15px;
-        }
-
-        .item {
-            margin-bottom: 20px;
-        }
-
-        .item h3 {
-            font-size: 17px;
+        h3 {
             margin-bottom: 3px;
         }
 
-        .date {
-            color: #777;
-            font-size: 14px;
-            margin-bottom: 7px;
+        p {
+            margin: 5px 0;
         }
 
         ul {
-            margin-left: 20px;
+            padding-left: 20px;
         }
 
-        li {
-            margin-bottom: 5px;
+        .contact {
+            margin-bottom: 25px;
         }
 
-        .skills {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
+        .section {
+            margin-bottom: 20px;
         }
 
-        .skill-group h3 {
-            font-size: 16px;
-            margin-bottom: 8px;
+        .date {
+            font-style: italic;
         }
 
-        .skill-group ul {
-            margin-left: 20px;
+        a {
+            color: #222;
+            text-decoration: none;
         }
 
-        footer {
-            text-align: center;
-            border-top: 1px solid #ddd;
-            padding-top: 20px;
-            color: #777;
-            font-size: 13px;
-        }
-
-        @media (max-width: 600px) {
-            .container {
-                margin: 15px;
-                padding: 25px;
+        @media print {
+            body {
+                margin: 0;
+                max-width: none;
             }
 
-            .skills {
-                grid-template-columns: 1fr;
-            }
-
-            header h1 {
-                font-size: 26px;
+            a {
+                color: #000;
             }
         }
     </style>
@@ -137,216 +73,154 @@
 
 <body>
 
-<div class="container">
-
-    <!-- HEADER -->
     <header>
-        <h1>Angela De Vera</h1>
-        <h2>UI/UX Designer | Aspiring Frontend Developer</h2>
+        <h1>Angela Gabriele Jorillo De Vera</h1>
 
         <div class="contact">
-            <a href="mailto:angelagab456@gmail.com">
-                angelagab456@gmail.com
-            </a>
-
-            <a href="https://linkedin.com/in/angeladv03" target="_blank">
-                LinkedIn
-            </a>
-
-            <a href="https://github.com/geladevera" target="_blank">
-                GitHub
-            </a>
+            <p>Pangasinan, Philippines</p>
+            <p>
+                Email: your-email@example.com |
+                Phone: +63 XXX XXX XXXX
+            </p>
+            <p>
+                GitHub:
+                <a href="https://github.com/yourusername">
+                    github.com/yourusername
+                </a>
+                |
+                LinkedIn:
+                <a href="#">
+                    LinkedIn Profile
+                </a>
+            </p>
         </div>
     </header>
 
+    <main>
 
-    <!-- PROFILE -->
-    <section>
-        <h2>Profile</h2>
-
-        <p class="profile">
-            Aspiring UI/UX designer and frontend developer with a growing
-            interest in mobile app design. Currently learning how to create
-            clean, user-friendly interfaces while exploring the basics of
-            frontend development. I enjoy finding ways to improve user
-            experiences through design and functionality.
-        </p>
-    </section>
-
-
-    <!-- EDUCATION -->
-    <section>
-        <h2>Education</h2>
-
-        <div class="item">
-            <h3>BS in Information Technology</h3>
-            <p class="date">2023 – Present</p>
-            <p>PHINMA University of Pangasinan</p>
-        </div>
-
-        <div class="item">
-            <h3>Accounting, Business, and Management</h3>
-            <p class="date">2021 – 2023</p>
-            <p>Pangasinan National High School</p>
-            <p><strong>Graduated with High Honors</strong></p>
-        </div>
-    </section>
-
-
-    <!-- TECHNICAL SKILLS -->
-    <section>
-        <h2>Technical Skills</h2>
-
-        <div class="skills">
-
-            <div class="skill-group">
-                <h3>Programming</h3>
-                <ul>
-                    <li>Python — Intermediate</li>
-                    <li>Java — Beginner</li>
-                    <li>SQL / MySQL</li>
-                </ul>
-            </div>
-
-            <div class="skill-group">
-                <h3>Development</h3>
-                <ul>
-                    <li>Web Development</li>
-                    <li>Data Structures</li>
-                    <li>Algorithms</li>
-                </ul>
-            </div>
-
-            <div class="skill-group">
-                <h3>Design</h3>
-                <ul>
-                    <li>UI/UX Design</li>
-                    <li>UI Design</li>
-                    <li>Frontend Development</li>
-                </ul>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- SOFT SKILLS -->
-    <section>
-        <h2>Soft Skills</h2>
-
-        <ul>
-            <li>Team Collaboration</li>
-            <li>Task Prioritization</li>
-            <li>Leadership</li>
-            <li>Communication</li>
-            <li>Problem Solving</li>
-            <li>Decision Making</li>
-        </ul>
-    </section>
-
-
-    <!-- PROJECTS -->
-    <section>
-        <h2>Projects</h2>
-
-        <div class="item">
-            <h3>ArtSphere</h3>
-            <p class="date">January – March 2025</p>
+        <section class="section">
+            <h2>Professional Summary</h2>
 
             <p>
-                A platform connecting artists and buyers, providing a space
-                to showcase and sell artwork.
+                Bachelor of Science in Information Technology student
+                specializing in Business Informatics with an interest in
+                data analytics, information systems, web development, and
+                technology-driven solutions. Experienced in academic
+                projects involving system development, database management,
+                user testing, and data analysis.
             </p>
+        </section>
 
-            <p><strong>Role:</strong> Project Manager, UI/UX Designer</p>
+        <section class="section">
+            <h2>Education</h2>
+
+            <h3>PHINMA University of Pangasinan</h3>
+            <p>Bachelor of Science in Information Technology</p>
+            <p>Specialization: Business Informatics</p>
+            <p class="date">Expected Graduation: 2027</p>
+        </section>
+
+        <section class="section">
+            <h2>Technical Skills</h2>
 
             <ul>
-                <li>Designed intuitive user interfaces</li>
-                <li>Contributed to frontend components</li>
-                <li>Focused on user experience and responsiveness</li>
-                <li>Worked on seamless navigation</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python</li>
+                <li>Node.js and Express.js</li>
+                <li>MongoDB and Mongoose</li>
+                <li>Git and GitHub</li>
+                <li>Microsoft Excel</li>
+                <li>Data Analysis and Visualization</li>
+                <li>Power BI</li>
+                <li>Tableau</li>
+                <li>Database Management</li>
+                <li>Web and Mobile Application Development</li>
             </ul>
-        </div>
+        </section>
 
+        <section class="section">
+            <h2>Projects</h2>
 
-        <div class="item">
-            <h3>HKScholar Tracker</h3>
-            <p class="date">August – October 2024</p>
+            <h3>Kapit-Bisig Relief</h3>
 
             <p>
-                A scholarship management system designed to help scholars
-                track their duty hours and status efficiently.
+                Web and Mobile AI-Powered Household Relief Distribution
+                and Tracking Platform for LGUs
             </p>
 
-            <p><strong>Role:</strong> Project Manager, UI/UX Designer</p>
+            <ul>
+                <li>
+                    Served as Project Manager for a capstone system designed
+                    to improve household relief distribution and tracking.
+                </li>
+
+                <li>
+                    Contributed to system planning, user testing,
+                    documentation, and project coordination.
+                </li>
+
+                <li>
+                    Implemented face recognition and verification as a
+                    mechanism for identifying registered beneficiaries and
+                    reducing duplicate registrations.
+                </li>
+
+                <li>
+                    Worked with web and mobile system components for
+                    household registration, QR-based claiming, and
+                    distribution tracking.
+                </li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Academic Experience</h2>
+
+            <h3>Data Analysis Project</h3>
 
             <ul>
-                <li>Led project development</li>
-                <li>Designed the user interface</li>
-                <li>Contributed to frontend layout</li>
-                <li>Focused on usability and monitoring</li>
+                <li>
+                    Conducted data collection and analysis using Microsoft
+                    Excel.
+                </li>
+
+                <li>
+                    Applied descriptive statistics to analyze survey
+                    responses.
+                </li>
+
+                <li>
+                    Organized and interpreted data for academic reporting
+                    and presentation.
+                </li>
             </ul>
-        </div>
+        </section>
 
+        <section class="section">
+            <h2>Core Competencies</h2>
 
-        <div class="item">
-            <h3>Hunt-that-Color</h3>
-            <p class="date">March – April 2024</p>
+            <ul>
+                <li>Data Analysis</li>
+                <li>Information Systems</li>
+                <li>Project Coordination</li>
+                <li>Problem Solving</li>
+                <li>Documentation</li>
+                <li>User Testing</li>
+                <li>Team Collaboration</li>
+                <li>Technical Communication</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Career Interests</h2>
 
             <p>
-                An interactive color-based game designed to improve focus,
-                response time, and perception.
+                Data Analytics, Business Intelligence, Information Systems,
+                Web Development, and Technology Solutions
             </p>
+        </section>
 
-            <p><strong>Role:</strong> Project Manager, UI Designer</p>
-
-            <ul>
-                <li>Led project planning and design</li>
-                <li>Created an engaging user interface</li>
-                <li>Collaborated with team members</li>
-                <li>Focused on user-friendly interaction</li>
-            </ul>
-        </div>
-    </section>
-
-
-    <!-- SEMINARS -->
-    <section>
-        <h2>Seminars & Workshops</h2>
-
-        <div class="item">
-            <h3>Git Started with GitHub: Foundational Dev Workshop</h3>
-            <p>Google Developer Group | 2025</p>
-        </div>
-
-        <div class="item">
-            <h3>Design Thinking Workshop for Freshmen and Sophomores</h3>
-            <p>University of Pangasinan | 2025</p>
-        </div>
-
-        <div class="item">
-            <h3>Pythonic Alchemy: Brewing Magic in Code</h3>
-            <p>University of Pangasinan | 2023</p>
-        </div>
-    </section>
-
-
-    <!-- LANGUAGES -->
-    <section>
-        <h2>Languages</h2>
-
-        <ul>
-            <li>English</li>
-            <li>Filipino</li>
-        </ul>
-    </section>
-
-
-    <footer>
-        <p>© 2026 Angela De Vera</p>
-    </footer>
-
-</div>
+    </main>
 
 </body>
 </html>
